@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code (keep structure, ignore sensitive data)
+.claude/settings.local.json
+
+# Temporary files
+*.tmp
+*.log
