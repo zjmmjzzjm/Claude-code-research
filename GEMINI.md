@@ -66,6 +66,16 @@ This repo studies the "Superpowers" library for Claude Code. Key skills include:
 | **TDD** | Enforcing a Red-Green-Refactor cycle (deletes code written without tests). | `/superpowers:test-driven-development` |
 | **Systematic Debugging** | A 4-stage process: Identification -> Hypothesis -> Testing -> Solution. | `/superpowers:systematic-debugging` |
 
+### Ecosystem & Case Studies
+We analyze other leading AI coding agent projects to derive insights for our own practices.
+
+*   **[Makepad Skills Analysis](notes/makepad-skills-analysis.md)**: A deep dive into how `makepad-skills` structures its knowledge base.
+    *   **Key Insight**: Uses an "Atomized Structure" (`_base/` vs `community/`) to manage official vs user skills.
+    *   **Self-Evolution**: Implements a "Capture Pattern" workflow where the AI documents its own solutions.
+*   **[OpenCode & Oh My OpenCode](notes/opencode-research.md)**: Analysis of the open-source alternative to Claude Code.
+    *   **Multi-Model Orchestration**: `Oh My OpenCode` uses a "Sisyphus" agent to delegate tasks to specialized models (Oracle/GPT for logic, Librarian/GLM for docs, Frontend/Gemini for UI).
+    *   **Ultrawork**: A continuous, autonomous workflow pattern.
+
 ### Directory Structure
 
 *   `docs/`: Formal documentation on principles and best practices.
