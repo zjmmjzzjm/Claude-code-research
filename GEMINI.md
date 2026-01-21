@@ -75,6 +75,9 @@ We analyze other leading AI coding agent projects to derive insights for our own
 *   **[OpenCode & Oh My OpenCode](notes/opencode-research.md)**: Analysis of the open-source alternative to Claude Code.
     *   **Multi-Model Orchestration**: `Oh My OpenCode` uses a "Sisyphus" agent to delegate tasks to specialized models (Oracle/GPT for logic, Librarian/GLM for docs, Frontend/Gemini for UI).
     *   **Ultrawork**: A continuous, autonomous workflow pattern.
+*   **[AI Research SKILLs](notes/ai-research-skills-analysis.md)**: Analysis of zechenzhangAGI's engineering skill library for agents.
+    *   **Skill-Based Architecture**: Demonstrates how agents can be augmented with modular, research-grade engineering knowledge (76+ skills).
+    *   **Autonomous Research**: Empowers agents to perform end-to-end AI research tasks, from data prep to distributed training.
 
 ### Directory Structure
 
