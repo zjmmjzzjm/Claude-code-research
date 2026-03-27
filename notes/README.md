@@ -9,6 +9,7 @@
 - [Claude Code 作为后端服务可行性分析](./claude-code-as-backend-service-可行性分析.md) - 架构探索
 - [Makepad Skills 仓库深度分析](./makepad-skills-analysis.md) - 学习如何构建 AI 知识库与技能包 (Makepad 案例)
 - [OpenCode & Oh My OpenCode 研究报告](./opencode-research.md) - 多模型协作 Agent 架构与生态研究
+- [gstack 分析](./gstack-analysis.md) - Garry Tan 的 Claude Code 全流程 sprint 框架，含浏览器自动化系统
 
 ## 组织建议
 
